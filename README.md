@@ -14,7 +14,12 @@ This is a web application that displays information about countries from an Api,
 
 ### Screenshot
 
-![](https://github.com/franklynwisdom/different-breeds-of-dogs/blob/master/breeds-of-dogs-screenshot.png)
+![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-1.PNG)
+![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-2.PNG)
+![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-3.PNG)
+![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-4.PNG)
+![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-5.PNG)
+
 
 
 ### Link
