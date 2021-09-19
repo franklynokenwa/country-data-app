@@ -22,7 +22,7 @@ function CountryInfo(props) {
     return(
       <div className="country-info-main-container" style={newStyles.body}>
         <Nav newStyles={newStyles} toggleMode={toggleMode} good={good}/>
-        <a href="/">
+        <a href="#">
           <button className="button-back" style={newStyles.backArrowStyle}>
             <FontAwesomeIcon icon={faArrowLeft} className="arrow-left"/>
             Back          

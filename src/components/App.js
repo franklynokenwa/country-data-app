@@ -1,7 +1,7 @@
 import '../css/App.css';
 import React,{useState, useEffect} from 'react';
 import Countries from './Countries';
-import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import {Route, HashRouter as Router, Switch} from 'react-router-dom'
 import CountryInfo from '../pages/CountryInfo';
 
 function App() {
