@@ -1,0 +1,35 @@
+.searchInput{
+    width: 25rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 0.9rem;
+    color: black;
+
+    /*filter: drop-shadow(0 0 0.2rem rgb(124, 121, 121));*/
+  
+  }
+  .searchInput:focus{
+      border: 1px solid gainsboro;
+
+  }
+  .searchInput::placeholder, .searchInput::-webkit-input-placeholder {
+      padding-left: 2rem;
+  }
+  .search{
+      position: absolute;
+      top: 7.9rem;
+      left: 3.3rem;
+      visibility: visible;
+  }
+
+  @media screen and (max-width:425px){
+    .searchInput{
+        width: 20rem;
+    }
+}
+  

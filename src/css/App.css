@@ -1,0 +1,10 @@
+.flex{
+  display: flex;
+}
+.space-around{
+  justify-content: space-around;
+}
+.column{
+  flex-direction: column;
+}
+
