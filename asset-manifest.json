@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/country-data-app/static/css/main.56e3a4b7.chunk.css",
-    "main.js": "/country-data-app/static/js/main.7f34dec5.chunk.js",
-    "main.js.map": "/country-data-app/static/js/main.7f34dec5.chunk.js.map",
+    "main.js": "/country-data-app/static/js/main.daa6a0a6.chunk.js",
+    "main.js.map": "/country-data-app/static/js/main.daa6a0a6.chunk.js.map",
     "runtime-main.js": "/country-data-app/static/js/runtime-main.d47a78f1.js",
     "runtime-main.js.map": "/country-data-app/static/js/runtime-main.d47a78f1.js.map",
     "static/js/2.45caf06d.chunk.js": "/country-data-app/static/js/2.45caf06d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d47a78f1.js",
     "static/js/2.45caf06d.chunk.js",
     "static/css/main.56e3a4b7.chunk.css",
-    "static/js/main.7f34dec5.chunk.js"
+    "static/js/main.daa6a0a6.chunk.js"
   ]
 }
