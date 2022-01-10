@@ -12,7 +12,7 @@ function CountryInfo(props) {
   const {newStyles, toggleMode,good} = props;
 
   useEffect(() => {
-    const api = `https://restcountries.eu/rest/v2/name/${name}`
+    const api = `https://restcountries.com/v2/name/${name}`
     fetch(api)
     .then(response => response.json())
     .then(data => setCountryDetails(data))
@@ -30,8 +30,7 @@ function CountryInfo(props) {
         </a>
          {
         countryDetails.map((items) => {
-          const {flag,name, nativeName,population, region, subregion, capital, topLevelDomain, currencies, languages, borders, numericCode} = items
-          console.log(languages);
+          const {flag,name, nativeName,population, region, subregion, capital, topLevelDomain, currencies, languages, borders, numericCode} = items || {}
           return(
                 <div key={numericCode} className="country-info-container">
                     <img src={flag} alt="" className="country-info-flag"/>
@@ -65,14 +64,16 @@ function CountryInfo(props) {
                       <div className="country-info-borders">  
                         <h3 style={newStyles.h2}>Border Countries :</h3>
                         <div className="country-info-borders-details">
-                          {
+                          { 
+                            typeof(borders) !== 'undefined' ? 
+
                             borders.map((borderCountries)=> {
                               return(
                                 <div key={borderCountries} className="border-countries" >
                                   <p className="border-countries-text" style={newStyles.p}>{borderCountries}</p>
                                 </div>
                               )
-                            })
+                            }) : <div style={{width:"15rem"}}>{ `${name} does not have border countries`}</div>
                           }
                         </div>
                       </div>

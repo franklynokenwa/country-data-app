@@ -13,10 +13,11 @@ function App() {
 
        
     useEffect(() => {
-      const api = 'https://restcountries.eu/rest/v2/all'
-      fetch(api)
-      .then(response => response.json())
-      .then(data => setData(data))
+
+        const api = 'https://restcountries.com/v2/all'
+        fetch(api)
+        .then(response => response.json())
+        .then(data => setData(data))
            
     }, [])
     
@@ -24,17 +25,13 @@ function App() {
     function toggleSearchIconDisplay(event) {
       if (event.target === document.activeElement) {
         setSearchIconDisplay('hidden')
-        console.log('has');
       } else {
         setSearchIconDisplay('visible')
-        console.log('has not');
 
       } 
-      console.log(event.target.value);
     }
 
     function toggleMode() {
-      console.log('fine');
       setAppModeState('true')
       if (appModeState === 'true') {
         setAppMode({
@@ -50,14 +47,12 @@ function App() {
           backArrowColor:'hsl(209, 23%, 22%)'
 
        })
-       console.log('clicked');
        setAppModeState("false")
 
       } else if (appModeState === 'false'){
         setAppMode({
           
        })
-       console.log('double clicked');
       }
     }
    

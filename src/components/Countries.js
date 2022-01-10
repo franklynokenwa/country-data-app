@@ -54,7 +54,6 @@ import  '../css/ThemeSwitcher.css';
         :                      
         filteredData.map((items) => {
             const {name, population, region, capital, flag, numericCode} = items;
-            console.log(items);
             return(
               <div>                
                 <div key={numericCode} className="countries-container" >
