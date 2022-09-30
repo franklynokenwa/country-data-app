@@ -32,4 +32,9 @@
         width: 20rem;
     }
 }
+@media screen and (max-width:320px){
+    .searchInput{
+      width: 15.5rem;
+    }
+  }
   
